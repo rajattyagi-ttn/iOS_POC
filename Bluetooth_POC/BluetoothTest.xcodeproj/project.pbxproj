@@ -16,6 +16,7 @@
 		0445C42E24C7167F00CFA161 /* BluetoothTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C42D24C7167F00CFA161 /* BluetoothTestTests.swift */; };
 		0445C43924C7167F00CFA161 /* BluetoothTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C43824C7167F00CFA161 /* BluetoothTestUITests.swift */; };
 		0445C44724C7184900CFA161 /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445C44624C7184900CFA161 /* ParticlePeripheral.swift */; };
+		04F5292024CF0F9400C051E3 /* LP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04F5291F24CF0F9400C051E3 /* LP.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0445C43824C7167F00CFA161 /* BluetoothTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothTestUITests.swift; sourceTree = "<group>"; };
 		0445C43A24C7167F00CFA161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0445C44624C7184900CFA161 /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
+		04F5291F24CF0F9400C051E3 /* LP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LP.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		0445C41524C7167C00CFA161 /* BluetoothTest */ = {
 			isa = PBXGroup;
 			children = (
+				04F5291E24CF0F7900C051E3 /* Music */,
 				0445C41624C7167C00CFA161 /* AppDelegate.swift */,
 				0445C41824C7167C00CFA161 /* SceneDelegate.swift */,
 				0445C41A24C7167C00CFA161 /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				0445C43A24C7167F00CFA161 /* Info.plist */,
 			);
 			path = BluetoothTestUITests;
+			sourceTree = "<group>";
+		};
+		04F5291E24CF0F7900C051E3 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				04F5291F24CF0F9400C051E3 /* LP.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 				0445C42324C7167E00CFA161 /* LaunchScreen.storyboard in Resources */,
 				0445C42024C7167E00CFA161 /* Assets.xcassets in Resources */,
 				0445C41E24C7167C00CFA161 /* Main.storyboard in Resources */,
+				04F5292024CF0F9400C051E3 /* LP.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28YQ6X2NNZ;
 				INFOPLIST_FILE = BluetoothTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28YQ6X2NNZ;
 				INFOPLIST_FILE = BluetoothTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
